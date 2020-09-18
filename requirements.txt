@@ -1,0 +1,8 @@
+torch
+albumentations
+efficientnet_pytorch
+torchvision
+glob
+Pillow
+json
+tqdm
