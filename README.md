@@ -1,5 +1,12 @@
 # NtechLab Test Task
 
+## Task 1
+      Task 1 is located in file task1.py
+      The idea of solution is that we don't want to have negative prefix in our subarray,  
+      unless whole array consists of negative numbers,   
+      so we just set our sum to 0 when we see that our prefix is negative   
+      and remember boundaries of subarray with max sum
+## Task 2
 ## 1.How to run training:
       Run script:   
         
