@@ -69,7 +69,7 @@ class FaceDataset(Dataset):
 
     def __getitem__(self, idx):
         if idx >= len(self.males):
-            img_path = self.females[idx % len(self.males)]
+            img_path = self.females[idx - len(self.males)]
             label = torch.tensor([0])
         else:
             img_path = self.males[idx]
